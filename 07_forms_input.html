@@ -23,7 +23,7 @@
             <label for="gender">Gender</label><br>
             <select name="gender" id="gender">
             <option value="male">male</option>
-            <option value="female">Female</option>
+            <option value="female" selected>Female</option>
             <option value="other">Other</option>
             </select>
         </div>
@@ -38,8 +38,14 @@
         <div>
             <label for="membership">Membership</label>
             <input type="radio" name="membership" value="simple" id="Membership">Simpe
-            <input type="radio" name="membership" value="standard" id="Membership">Standard
+            <input type="radio" name="membership" value="standard" id="Membership" checked>Standard
             <input type="radio" name="membership" value="super" id="Membership">Super
+        </div>
+        <div>
+            <label for="membership">I Like..</label>
+            <input type="checkbox" name="likes" value="bike" id="Membership">Bike
+            <input type="checkbox" name="likes" value="car" id="likes" checked>Car
+            <input type="checkbox" name="likes" value="boat" id="likes">Boat
         </div>
     </form>
 </body>
